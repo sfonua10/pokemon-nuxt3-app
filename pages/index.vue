@@ -52,7 +52,7 @@ const searchTerm = ref("");
 
 onMounted(async () => {
   try {
-    const response = await axios.get("http://localhost:3000/api/pokemon");
+    const response = await axios.get("/api/pokemon");
     if (
       response.status === 200 &&
       response.data.data &&
