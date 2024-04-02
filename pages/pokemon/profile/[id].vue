@@ -180,6 +180,7 @@ const showMoves = ref(false);
 const toggleModal = () => {
   open.value = !open.value;
 };
+console.log("THIS IS A NEW CHANGE")
 
 onMounted(async () => {
   try {
