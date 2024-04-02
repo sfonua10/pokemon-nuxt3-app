@@ -178,8 +178,9 @@ const pokemon = ref<any>({});
 const showMoves = ref(false);
 
 const toggleModal = () => {
-  open.value = !open.value;
   console.log("HEY HEY")
+  console.log('hi')
+
 };
 console.log("THIS IS A NEW CHANGE")
 
